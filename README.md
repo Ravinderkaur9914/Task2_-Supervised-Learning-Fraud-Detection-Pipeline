@@ -78,4 +78,4 @@ Output: console log of tuning results, classification reports for both models, a
 Fraud detection is not a "predict the label" problem — it's a cost-sensitive decision problem, hidden inside a severely imbalanced classification task. SMOTE lets the model learn from a balanced view of the minority class, and a leak-free pipeline ensures every reported metric reflects genuine generalization, not a shortcut. Precision, Recall, and ROC-AUC — not Accuracy — are the only metrics that tell the truth about a fraud model's real-world value.
 
 ---
-*Batch: 2026 | DecodeLabs Industrial Training Kit*
+
